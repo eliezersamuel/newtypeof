@@ -51,11 +51,15 @@ export function typeOf(arg) {
             return { type: "number", value };
         }
 
-        if (typeof JSON.parse(arg) === "object") {
-            return isObject(JSON.parse(arg));
-        }
+        try {
+            if (typeof JSON.parse(arg) === "object") {
+                return isObject(JSON.parse(arg));
+            }
 
-        return { type: "string", value };
+            return { type: "string", value };
+        } catch {
+            return { type: "string", value };
+        }
     }
 
     return { type, value };
