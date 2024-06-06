@@ -7,7 +7,7 @@ A utility function to determine the type of a given argument and return an objec
 To install the package, run:
 
 ```bash
-npm install type-of-utility
+npm install newtypeof
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install type-of-utility
 The typeOf function can be used to determine the type of various values. The function returns an object with the type and the value.
 
 ```javascript
-import { typeOf } from "type-of-utility";
+import { typeOf } from "newtypeof";
 
 console.log(typeOf(null)); // { type: "null", value: null }
 console.log(typeOf(123)); // { type: "number", value: 123 }
