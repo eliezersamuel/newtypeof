@@ -1,0 +1,20 @@
+{
+    "name": "newtypeof",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "engines": {
+        "node": ">20"
+    },
+    "scripts": {
+        "dev": "node --watch ./index.js"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Eliézer Samuel",
+        "email": "eliezersamuelss@gmail.com",
+        "url": "https://github.com/eliezersamuel"
+    },
+    "license": "ISC",
+    "description": "Pacote criado com a intenção de facilitar a identificação dos tipos de variáveis."
+}
